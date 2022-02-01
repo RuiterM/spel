@@ -1,0 +1,110 @@
+body {
+    margin: auto;
+}
+
+img {
+    width: 1920px;
+    height: 965px;
+}
+
+#title {
+    position: absolute;
+    top: 75px;
+    left: 610px;
+    margin: auto;
+    height: 150px;
+    width: 600px;
+    background-color: white;
+    border: 8px solid black;
+    border-radius: 75%;
+}
+
+h1#titletxt {
+    padding-top: 35px;
+    margin: auto;
+    width: 75%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 350%;
+}
+
+#game {
+    position: absolute;
+    top: 275px;
+    left: 577px;
+    width: 700px;
+    height: 450px;
+}
+
+#block1 {
+    float: left;
+    width: 325px;
+    height: 209px;
+    border: 8px solid black;
+    border-right: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#block2 {
+    float: left;
+    width: 325px;
+    height: 209px;
+    border: 8px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#block3 {
+    float: left;
+    width: 325px;
+    height: 209px;
+    border: 8px solid black;
+    border-top: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#block4 {
+    float: left;
+    width: 325px;
+    height: 209px;
+    border: 8px solid black;
+    border-left: 4px;
+    border-top: 4px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#block1:hover {
+    background-color: rgb(156, 156, 156);
+}
+
+#block2:hover {
+    background-color: rgb(156, 156, 156);
+}
+
+#block3:hover {
+    background-color: rgb(156, 156, 156);
+}
+
+#block4:hover {
+    background-color: rgb(156, 156, 156);
+}
+
+#start {
+    position: absolute;
+    top: 725px;
+    left: 750px;
+    height: 75px;
+    width: 300px;
+    border: 8px solid black;
+    background-color: white;
+}
+
+#start:hover {
+    background-color: rgb(156, 156, 156);
+}
+
+h1#starttxt {
+    padding-left: 85px;
+    margin: auto;
+    width: 75%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 350%;
+}
